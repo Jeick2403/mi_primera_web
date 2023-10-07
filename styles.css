@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;  
+} display:
+body {
+    background-color: rgb(195, 211, 195);
+}
+header {
+    background-color: #055c57;
+    color: #0d0e0d;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  nav{
+    overflow: hidden;
+    margin-right: 0;
+    height: 30px;
+     }
+  .fuente-acento, a{
+    display: inline-block;
+    float: left;
+    }
+    header nav ul{
+        align-items: right;
+        margin: 5px;
+    }
+   header nav ul li{
+        margin: 0px 10px 0px 10px ;
+    }
+    .menu{
+        float: right;
+        display: inline-flex;
+        align-content: center;
+         }
+
+#check{
+    display:none{
+    }
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 768px){
+    header{
+        background-color: burlywood;
+    }
+.checkbtn{
+    display: block;
+}
+#encabezado ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    text-align: center;
+
+    top: 50px;
+    left: 100%;
+    transition: all 0.5s;
+}
+check: checked ~ ul{
+    left: 0%;
+    display: block;
+}
+#encabezado nav ul li{
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+}
+#encabezado nav ul li a{
+    font-size: 20px;
+}
+}
+}
+  /*
+   header h1.fuente-acento {
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 50px;
+    }
+    header nav {
+        float: right;
+        overflow: hidden;
+       }
+
+   nav ul li {
+    display: block;
+    margin-right: 20px;
+    line-height: 60px;
+    font-size: large;
+    }
+   */
+.landscape{
+   
+}
+.encabezados{
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.catpic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    float: left;
+    padding: auto;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 60px;
+    float: center;
+       
+      }
+.carrusel{
+    margin-top: 20px;
+    padding-top: 10px;
+   }
+header ul li a{
+    color:#fff;
+   }
+
+a:hover{
+    background-color: black;
+}    
+footer{
+    text-align: right;
+    width: 100%;
+    height: 60px;
+    font-size: medium;
+}
+.pie{
+    background-color: #055c57;
+    width: 100%;
+    margin: 0;
+    border-color: #0d0e0d;
+
+}
+p{
+    font-size: 12px;
+    float: none;
+}
+.fuente-clara {color: #eeeeee;}
+.fuente-oscura {color: #22211f;}
+.fuente-acento {color: #b59a61;}
+.carrusel { width: 100%;}
+.ts{
+    width: 400px;
+    text-align: justify;
+}
+.apoyo1{
+    border-radius: 25px;
+   }
+.apoyo2{
+    border-radius: 25px;
+    }
+.apoyo3{
+    border-radius: 25px;
+}
+.titulo-trabajos{
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    padding: 1%;
+}
+
+.imagenes{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagen1{
+    width: 400px;
+}
+.imagen2{
+    width: 400px;
+}
+.imagen3{
+    width: 400px;
+    justify-content: center;
+}
+.img-1{
+    display: flex;
+    justify-content: center;
+}
+.img-2{
+    display: flex;
+    justify-content: center;
+}
+.img-3{
+    display: flex;
+    justify-content: center;
+}
+.titulo1{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    font-family: arial;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    font-family: arial;
+}
+.titulo3{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    font-family: arial;
+}
+.pts{
+  padding: 0px 45px 0px 45px;
+  text-align: justify;
+}
+.pas{
+    padding: 0px 45px 0px 45px;
+    text-align: justify; 
+}
+.TC{
+    padding: 0px 45px 0px 45px;
+    text-align: justify; 
+}
+    .contacto{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .creditos{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    }
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    body{
+        font-size: 16px;
+    }
+    main{
+        margin-top: 70px;
+    }
+    .landscape{
+        margin-top: 20px;
+    }
+    .catpic{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+      /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+}
+/* ------------- CSS General ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 0px;
+    display: block;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    
+    
+  }
+  /* ------------- Campos del Formulario ------------- */
+.formulario1{
+    display: block;
+    border: solid black;
+}
+.logov{
+    border: solid black;
+    display: inline;
+    justify-content: right;
+    position: ;
+}
+  .vida{
+    justify-content: right;
+    width: 100px;
+    height: 100px;
+    position: ;
+}
+.fundafe{
+    opacity: 60%;
+}
+
+    
